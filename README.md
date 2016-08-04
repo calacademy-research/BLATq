@@ -2,7 +2,7 @@
 
 blatq is the same as BLAT v. 35 (Kent, 2002; Kent, 2012), except that it will accept fastq files, although it does not utilize the base quality score information in the fastq files.
 
-#### Contents
+### Contents
 
 README.md : this README
 
@@ -10,14 +10,14 @@ blatq_mods.md : describes what portions on the BLAT v. 35 code were changed to c
 
 blatSrc : directory with all blatq source code  
 
-#### How to compile
+### How to compile
 
 $ git clone <git-repository-path>  
 $ cd <git-repository-name>/blatSrc  
 $ make  
 $ mv blat blatq  
 
-#### Usage
+### Usage
 
 $ blatq
 
@@ -116,7 +116,7 @@ options:
    -maxIntron=N  Sets maximum intron size. Default is 750000
    -extendThroughN - Allows extension of alignment through large blocks of N's  
 
-#### BLAT references
+### BLAT references
 
 Kent WJ. 2002. BLAT—The BLAST-Like Alignment Tool. Genome Research 12:656–664. DOI: 10.1101/gr.229202.  
 Kent WJ. 2012. BLAT—The BLAST-Like Alignment Tool. Version 35. Available at <https://users.soe.ucsc.edu/~kent>.  
