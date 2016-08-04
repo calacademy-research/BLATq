@@ -1,7 +1,6 @@
 # blatq
 
-blatq is the same as BLAT v. 35 (Kent, 2002; Kent, 2012), except that it will accept fastq files, although it does not \
-utilize the base quality score information in the fastq files.
+blatq is the same as BLAT v. 35 (Kent, 2002; Kent, 2012), except that it will accept fastq files, although it does not utilize the base quality score information in the fastq files.
 
 #### Contents
 
@@ -123,6 +122,7 @@ options:
 #### BLAT references
 
 Kent WJ. 2002. BLAT—The BLAST-Like Alignment Tool. Genome Research 12:656–664. DOI: 10.1101/gr.229202.
+
 Kent WJ. 2012. BLAT—The BLAST-Like Alignment Tool. Version 35. Available at <https://users.soe.ucsc.edu/~kent>.
 
 blatq author: James Henderson, jhenderson@calacademy.org
