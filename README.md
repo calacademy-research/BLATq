@@ -8,7 +8,7 @@ README.md : this README
 
 blatq_mods.md : describes what portions on the BLAT v. 35 code were changed to create blatq Version 1.0.0.
 
-blatSrc : directory with all blatq source code  
+blatSrc : directory with all BLATq source code  
 
 ### How to compile
 
