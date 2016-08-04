@@ -13,8 +13,8 @@ blatSrc : directory with all blatq source code
 
 #### How to compile
 
-$ git clone <git-repository-path>
-$ cd <git-repository-name>/blatSrc
+$ git clone <git-repository-path>\n
+$ cd <git-repository-name>/blatSrc\n
 $ make
 $ mv blat blatq
 
