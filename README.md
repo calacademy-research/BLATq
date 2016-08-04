@@ -8,16 +8,14 @@ README.md : this README
 
 blatq_mods.md : describes what portions on the BLAT v. 35 code were changed to create blatq Version 1.0.0.
 
-blatSrc : directory with all blatq source code
-
+blatSrc : directory with all blatq source code  
 
 #### How to compile
 
-$ git clone <git-repository-path>\n
-$ cd <git-repository-name>/blatSrc\n
-$ make
-$ mv blat blatq
-
+$ git clone <git-repository-path>  
+$ cd <git-repository-name>/blatSrc  
+$ make  
+$ mv blat blatq  
 
 #### Usage
 
@@ -116,13 +114,11 @@ options:
    -fine       For high quality mRNAs look harder for small initial and
                terminal exons.  Not recommended for ESTs
    -maxIntron=N  Sets maximum intron size. Default is 750000
-   -extendThroughN - Allows extension of alignment through large blocks of N's
-
+   -extendThroughN - Allows extension of alignment through large blocks of N's  
 
 #### BLAT references
 
-Kent WJ. 2002. BLAT—The BLAST-Like Alignment Tool. Genome Research 12:656–664. DOI: 10.1101/gr.229202.
-
-Kent WJ. 2012. BLAT—The BLAST-Like Alignment Tool. Version 35. Available at <https://users.soe.ucsc.edu/~kent>.
+Kent WJ. 2002. BLAT—The BLAST-Like Alignment Tool. Genome Research 12:656–664. DOI: 10.1101/gr.229202.  
+Kent WJ. 2012. BLAT—The BLAST-Like Alignment Tool. Version 35. Available at <https://users.soe.ucsc.edu/~kent>.  
 
 blatq author: James Henderson, jhenderson@calacademy.org
