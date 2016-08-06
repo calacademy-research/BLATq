@@ -49,7 +49,7 @@ $ blatq
       or
          /path/file.nib:start-end
       With the second form, a sequence id of file:start-end will be used.
-   options:
+      options:
       -t=type     Database type.  Type is one of:
                     dna - DNA sequence
                     prot - protein sequence
