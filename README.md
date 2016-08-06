@@ -14,7 +14,7 @@ blatSrc : directory with all BLATq source code
 
 $ git clone https://github.com/calacademy-research/blatq.git  
 \# Now either follow the instructions in the README found in the blatq/blastSrc directory or follow my interpreted version below.  
-# Define the MACHTYPE environment variable  
+\# Define the MACHTYPE environment variable  
 $ export MACHTYPE=`uname -m`  
 \# Create the directory ~/bin/$MACHTYPE  
 $ mkdir -p ~/bin/$MACHTYPE  
