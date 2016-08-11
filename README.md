@@ -30,10 +30,10 @@ $ ln -s blat blatq
 
 $ blatq
 
-   blat - Standalone BLAT v. 35 fast sequence search command line tool
-   usage:
+    blat - Standalone BLAT v. 35 fast sequence search command line tool
+    usage:
       blat database query [-ooc=11.ooc] output.psl
-   where:
+    where:
       database and query are each either a .fa , .nib or .2bit file,
       or a list these files one file name per line.
       NOTE: fastq files (4 lines per record) allowed in this version.  
