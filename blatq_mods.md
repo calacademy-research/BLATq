@@ -12,14 +12,14 @@ Assuming blat source files unzipped in a directory named blatSrc, these files ar
 - blatSrc/jkOwnLib/gfClientLib.c
 - blatSrc/lib/fa.c
 
-The change in blat.c adds another line to the usage block (line beginning with NOTE):
+The change in blat/blat.c inserted at line 68 adds another line to the usage block (line beginning with NOTE):
 
     "where:\n"
     "   database and query are each either a .fa , .nib or .2bit file,\n"
     "   or a list these files one file name per line.\n"
     "   NOTE: fastq files (4 lines per record) allowed in this version.\n\n"
   
-The change in gfClientLib.c permits records to start with @ as well as > in the header:
+The change in jkOwnlib/gfClientLib.c inserted at line 32 permits records to start with @ as well as > in the header:
 
     /* Detect .fa files (where suffix is not standardized)
      * by first character being a '>'. */
@@ -36,7 +36,7 @@ The change in gfClientLib.c permits records to start with @ as well as > in the 
             gotSingle = TRUE;
         }
     
-The change in lib/fa.c adds an else if block to handle the fastq records, as commented:
+The change in lib/fa.c inserted at line 459 adds an else if block to handle the fastq records, as commented:
 
     if (line[0] == '>')
         {
