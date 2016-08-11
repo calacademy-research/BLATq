@@ -36,8 +36,8 @@ $ blatq
    where:
       database and query are each either a .fa , .nib or .2bit file,
       or a list these files one file name per line.
-      NOTE: fastq files (4 lines per record) allowed in this version.
-   
+      NOTE: fastq files (4 lines per record) allowed in this version.  
+      
       -ooc=11.ooc tells the program to load over-occurring 11-mers from
                   and external file.  This will increase the speed
                   by a factor of 40 in many cases, but is not required
