@@ -10,8 +10,10 @@ blatq_mods.md : describes what portions on the BLAT v. 35 code were changed to c
 
 blatSrc : directory with all BLATq source code  
 
-### How to compile
-
+### How to compile  
+  
+\# We have provided an executable compiled for use on 64-bit Linux systems in each release.  
+\# If you need to compile the code for use on other architectures, then follow the directions below.
 $ git clone https://github.com/calacademy-research/blatq.git  
 \# Now either follow the instructions in the README found in the blatq/blastSrc directory or follow the interpreted version below.  
 \# Create a subdirectory of a directory in your PATH  
