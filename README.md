@@ -13,17 +13,15 @@ blatSrc : directory with all BLATq source code
 ### How to compile
 
 $ git clone https://github.com/calacademy-research/blatq.git  
-\# Now either follow the instructions in the README found in the blatq/blastSrc directory or follow my interpreted version below.  
-\# Define the MACHTYPE environment variable  
-$ export MACHTYPE=\`uname -m\`  
-\# Create the directory ~/bin/$MACHTYPE  
-$ mkdir -p ~/bin/$MACHTYPE  
-\# Add this directory to your PATH  
-$ export PATH="$PATH:~/bin/$MACHTYPE"  
+\# Now either follow the instructions in the README found in the blatq/blastSrc directory or follow the interpreted version below.  
+\# Create a subdirectory of a directory in your PATH  
+$ mkdir -p ~/bin/blatq_bin  
+\# If ~/bin is not in your PATH, do  
+$ export PATH="$PATH:~/bin"  
 $ cd blatq/blatSrc  
-$ make  
+$ make MACHTYPE=blatq_bin  
 \# Call the executable with "blat" or make a symbolic link of blatq to blat  
-$ cd ~/bin/$MACHTYPE  
+$ cd ~/bin/blatq_bin  
 $ ln -s blat blatq  
 
 ### Usage
