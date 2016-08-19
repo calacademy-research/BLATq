@@ -128,5 +128,5 @@ $ blatq
 Kent WJ. 2002. BLAT—The BLAST-Like Alignment Tool. Genome Research 12:656–664. DOI: 10.1101/gr.229202.  
 Kent WJ. 2012. BLAT—The BLAST-Like Alignment Tool. Version 35. Available at <https://users.soe.ucsc.edu/~kent>.  
 
-BLATq modifications by: James Henderson, jhenderson@calacademy.org
-BLATq README.md authors: Zachary R. Hanna, James Henderson
+BLATq modifications by: James Henderson, jhenderson@calacademy.org  
+BLATq README.md authors: Zachary R. Hanna, James Henderson  
