@@ -125,7 +125,9 @@ $ blatq
       -maxIntron=N  Sets maximum intron size. Default is 750000
       -extendThroughN - Allows extension of alignment through large blocks of N's  
 
-### BLAT references
+### Citing
+
+#### BLAT references
 
 Kent WJ. 2002. BLAT—The BLAST-Like Alignment Tool. Genome Research 12:656–664. DOI: 10.1101/gr.229202.  
 Kent WJ. 2012. BLAT—The BLAST-Like Alignment Tool. Version 35. Available at <https://users.soe.ucsc.edu/~kent>.  
