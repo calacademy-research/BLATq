@@ -135,5 +135,5 @@ Kent WJ. 2012. BLAT—The BLAST-Like Alignment Tool. Version 35. Available at <h
 BLATq modifications by: James Henderson, jhenderson@calacademy.org  
 BLATq README.md authors: Zachary R. Hanna, James Henderson  
 
-#### Version 1.0.0
-[![DOI](https://zenodo.org/badge/24128/calacademy-research/blatq.svg)](https://zenodo.org/badge/latestdoi/24128/calacademy-research/blatq)
+#### Version 1.0.2
+[![DOI](https://zenodo.org/badge/24128/calacademy-research/BLATq.svg)](https://zenodo.org/badge/latestdoi/24128/calacademy-research/BLATq)
